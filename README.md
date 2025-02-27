@@ -30,7 +30,7 @@ If you find SEA-RAFT useful for your work, please consider citing our academic p
 ## installation
 
 ```bash
-pip install https://github.com/tweigel-dev/SEA-RAFT.git # if its has gotten uploaded to pypi
+pip install git+https://github.com/princeton-vl/SEA-RAFT
 ```
 
 
