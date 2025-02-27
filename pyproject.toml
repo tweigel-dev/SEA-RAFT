@@ -23,7 +23,7 @@ dependencies= [
     "h5py",
     "tqdm",
     "einops",
-    "ptlflow"
+    "huggingface-hub"
 ]
 
 [project.optional-dependencies]
