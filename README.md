@@ -27,6 +27,17 @@ If you find SEA-RAFT useful for your work, please consider citing our academic p
   year={2024}
 }
 ```
+## installation
+
+```bash
+pip install https://github.com/tweigel-dev/SEA-RAFT.git # if its has gotten uploaded to pypi
+```
+
+
+```bash
+pip install sea-raft # if its has gotten uploaded to pypi
+```
+
 
 ## Requirements
 Our code is developed with pytorch 2.2.0, CUDA 12.2 and python 3.10.
