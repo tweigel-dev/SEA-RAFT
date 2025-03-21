@@ -9,10 +9,10 @@ from config.parser import parse_args
 import torch
 import torch.optim as optim
 
-from core.raft import RAFT
-from core.datasets import fetch_dataloader
-from core.utils.utils import load_ckpt
-from core.loss import sequence_loss
+from sea_raft.raft import RAFT
+from sea_raft.datasets import fetch_dataloader
+from sea_raft.utils.utils import load_ckpt
+from sea_raft.loss import sequence_loss
 from ddp_utils import *
 
 os.system("export KMP_INIT_AT_FORK=FALSE")
